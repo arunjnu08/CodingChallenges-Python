@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/knight-dialer/description/?envType=daily-question&envId=2023-11-27
 
-class Solution:
+class KnightDialer_935:
     def knightDialer(self, n: int) -> int:
         if n == 1: return 10
         dp = [1] * 10
